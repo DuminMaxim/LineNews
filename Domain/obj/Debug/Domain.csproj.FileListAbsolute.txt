@@ -1,0 +1,32 @@
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\Domain.dll
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\Domain.pdb
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\obj\Debug\Domain.dll
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\obj\Debug\Domain.pdb
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\Domain.dll.config
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\EntityFramework.dll
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\EntityFramework.xml
+c:\Users\max\documents\visual studio 2015\Projects\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyBlog\Domain\bin\Debug\Domain.dll.config
+D:\MyBlog\Domain\bin\Debug\Domain.dll
+D:\MyBlog\Domain\bin\Debug\Domain.pdb
+D:\MyBlog\Domain\bin\Debug\EntityFramework.dll
+D:\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyBlog\Domain\bin\Debug\EntityFramework.xml
+D:\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyBlog\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\MyBlog\Domain\obj\Debug\Domain.dll
+D:\MyBlog\Domain\obj\Debug\Domain.pdb
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\Domain.dll.config
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\Domain.dll
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\Domain.pdb
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\EntityFramework.dll
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\EntityFramework.xml
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\Inostudio(TestProject)\MyBlog\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\Inostudio(TestProject)\MyBlog\Domain\obj\Debug\Domain.dll
+D:\Inostudio(TestProject)\MyBlog\Domain\obj\Debug\Domain.pdb
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\System.Web.Providers.dll
+D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\System.Web.Providers.xml

@@ -1,0 +1,85 @@
+﻿@model WebUI.Models.BlogListViewModel
+
+@{
+    ViewBag.Title = "Главная";
+}
+
+
+@if (@ViewBag.searchText != null)
+{
+    <h2>
+        Результат поиска: 
+        @ViewBag.searchText
+    </h2>
+}
+
+
+@foreach (var blog in Model.Blogs)
+{
+    <div class="well">
+        <div class="preview_news">
+            <h1 class="news_title">
+                <strong>@blog.Title</strong>
+            </h1>
+            <div class="separator"></div>
+
+            <div class="clearfix">
+                @if (blog.ImageData != null)
+                {
+                    <div class="preview_news_img pull-left">
+                        <img src="@Url.Action("GetImage", "Home", new { blogId = blog.BlogId })" width="150" height="150" class="img-responsive" />
+                    </div>
+                }
+                <p class="preview_news_descr">
+                    @Html.CutText(blog.Description)
+                </p>
+            </div>
+
+            <div class="preview_news_footer clearfix">
+                <div class="pull-left">
+                    @blog.Date.Value.ToShortDateString()
+                    <span class="vertical_separator"></span>
+                </div>
+                <div class="pull-left text-nowrap text_skyblue ">
+                    @if (blog.Comments.Count == 0)
+                    {
+                        <p>
+                            Нет комментариев
+                        </p>
+                    }
+                    else
+                    {
+                        <p>
+                            Комментарии(@blog.Comments.Count)
+                        </p>
+                    }
+                </div>
+                <div class="pull-right">
+                    @Html.ActionLink("Подробнее...", "NewsDetails", "Home", new { blogId = blog.BlogId }, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+
+
+<!--PAGING-->
+
+<div class="btn-group pull-right">
+
+    @for (int i = 1; i <= Model.pagingInfo.TotalPage; i++)
+    {
+        if (Model.pagingInfo.TotalPage == 1)
+        {
+            break;
+        }
+
+        @Html.ActionLink(i.ToString(), "Index", "Home", new { currentPage = i },
+            new
+            {
+                @class = "btn btn-default " +
+                (Model.pagingInfo.CurrentPage == i ? "btn-primary" : "")
+            });
+    }
+</div>

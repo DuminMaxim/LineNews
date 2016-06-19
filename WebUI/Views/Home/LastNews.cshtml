@@ -1,0 +1,13 @@
+﻿@using Domain.Entity
+@model List<Blog>
+
+<ul>
+    <b class="text-muted small">ПОСЛЕДНИЕ СТАТЬИ</b>
+
+    @foreach (var blog in Model)
+    {
+        <li>
+            @Html.ActionLink(blog.Title, "NewsDetails", "Home", new { blogId = blog.BlogId }, new { @class = "text_skyblue" })
+        </li>
+    }
+</ul>

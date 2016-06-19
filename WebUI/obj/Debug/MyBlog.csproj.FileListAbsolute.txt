@@ -1,0 +1,177 @@
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\ApplicationInsights.config
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\csc.exe
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\System.Collections.Immutable.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\vbc.exe
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe.config
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\MyBlog.dll.config
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\MyBlog.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\MyBlog.pdb
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Antlr3.Runtime.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.Web.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.Web.Infrastructure.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Newtonsoft.Json.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Helpers.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Mvc.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Optimization.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Razor.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\WebGrease.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.Web.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Helpers.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Mvc.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Optimization.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.Razor.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Antlr3.Runtime.pdb
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Newtonsoft.Json.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\obj\Debug\MyBlog.csprojResolveAssemblyReference.cache
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\obj\Debug\MyBlog.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\obj\Debug\MyBlog.pdb
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Domain.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\EntityFramework.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\EntityFramework.SqlServer.dll
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\Domain.pdb
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\EntityFramework.xml
+c:\users\max\documents\visual studio 2015\Projects\MyBlog\MyBlog\bin\EntityFramework.SqlServer.xml
+D:\MyBlog\MyBlog\bin\ApplicationInsights.config
+D:\MyBlog\MyBlog\bin\roslyn\csc.exe
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MyBlog\MyBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MyBlog\MyBlog\bin\roslyn\System.Collections.Immutable.dll
+D:\MyBlog\MyBlog\bin\roslyn\System.Reflection.Metadata.dll
+D:\MyBlog\MyBlog\bin\roslyn\vbc.exe
+D:\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe
+D:\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe.config
+D:\MyBlog\MyBlog\bin\MyBlog.dll.config
+D:\MyBlog\MyBlog\bin\MyBlog.dll
+D:\MyBlog\MyBlog\bin\MyBlog.pdb
+D:\MyBlog\MyBlog\bin\Antlr3.Runtime.dll
+D:\MyBlog\MyBlog\bin\Domain.dll
+D:\MyBlog\MyBlog\bin\EntityFramework.dll
+D:\MyBlog\MyBlog\bin\EntityFramework.SqlServer.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.Web.dll
+D:\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.dll
+D:\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.dll
+D:\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MyBlog\MyBlog\bin\Microsoft.Web.Infrastructure.dll
+D:\MyBlog\MyBlog\bin\Newtonsoft.Json.dll
+D:\MyBlog\MyBlog\bin\System.Web.Helpers.dll
+D:\MyBlog\MyBlog\bin\System.Web.Mvc.dll
+D:\MyBlog\MyBlog\bin\System.Web.Optimization.dll
+D:\MyBlog\MyBlog\bin\System.Web.Razor.dll
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.dll
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.dll
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.dll
+D:\MyBlog\MyBlog\bin\WebGrease.dll
+D:\MyBlog\MyBlog\bin\Domain.pdb
+D:\MyBlog\MyBlog\bin\EntityFramework.xml
+D:\MyBlog\MyBlog\bin\EntityFramework.SqlServer.xml
+D:\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.xml
+D:\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MyBlog\MyBlog\bin\Microsoft.AI.Web.xml
+D:\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.xml
+D:\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.xml
+D:\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MyBlog\MyBlog\bin\System.Web.Helpers.xml
+D:\MyBlog\MyBlog\bin\System.Web.Mvc.xml
+D:\MyBlog\MyBlog\bin\System.Web.Optimization.xml
+D:\MyBlog\MyBlog\bin\System.Web.Razor.xml
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.xml
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.xml
+D:\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.xml
+D:\MyBlog\MyBlog\bin\Antlr3.Runtime.pdb
+D:\MyBlog\MyBlog\bin\Newtonsoft.Json.xml
+D:\MyBlog\MyBlog\obj\Debug\MyBlog.csprojResolveAssemblyReference.cache
+D:\MyBlog\MyBlog\obj\Debug\MyBlog.dll
+D:\MyBlog\MyBlog\obj\Debug\MyBlog.pdb
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\ApplicationInsights.config
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\csc.exe
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\System.Collections.Immutable.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\System.Reflection.Metadata.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\vbc.exe
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\roslyn\VBCSCompiler.exe.config
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\MyBlog.dll.config
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\MyBlog.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\MyBlog.pdb
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Antlr3.Runtime.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Domain.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\EntityFramework.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\EntityFramework.SqlServer.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.Web.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.Web.Infrastructure.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Newtonsoft.Json.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Helpers.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Mvc.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Optimization.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Razor.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\WebGrease.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Domain.pdb
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\EntityFramework.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\EntityFramework.SqlServer.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.DependencyCollector.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.Web.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.AI.WindowsServer.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.ApplicationInsights.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Helpers.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Mvc.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Optimization.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.Razor.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.Deployment.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\System.Web.WebPages.Razor.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Antlr3.Runtime.pdb
+D:\Inostudio(TestProject)\MyBlog\MyBlog\bin\Newtonsoft.Json.xml
+D:\Inostudio(TestProject)\MyBlog\MyBlog\obj\Debug\MyBlog.csprojResolveAssemblyReference.cache
+D:\Inostudio(TestProject)\MyBlog\MyBlog\obj\Debug\MyBlog.dll
+D:\Inostudio(TestProject)\MyBlog\MyBlog\obj\Debug\MyBlog.pdb

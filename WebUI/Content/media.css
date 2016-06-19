@@ -1,0 +1,55 @@
+﻿
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .user_greeting {
+        display: none;
+    }
+    
+    .account_panel{
+        width:300px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    #nav_search {
+        display: none;
+    }
+
+    #nav_menu {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .preview_news_descr{
+        text-align:left;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    .preview_news_footer > div {
+       clear: both;
+    }
+
+    .preview_news .vertical_separator {
+        display: none;
+    }
+
+    .preview_news > a{
+        display:block;
+    }
+
+    .news_title{
+        font-size: x-large;
+    }
+}
+

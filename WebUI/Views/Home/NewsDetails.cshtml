@@ -1,0 +1,111 @@
+﻿@model Domain.Entity.Blog
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+
+<!--NEWS-->
+
+<div class="well">
+    <h1 class="news_title">
+        <strong>@Model.Title</strong>
+    </h1>
+    <div class="separator"></div>
+
+    <div class="row">
+        @if (Model.ImageData != null)
+        {
+            <div>
+                <img src="@Url.Action("GetImage", "Home", new { blogId = Model.BlogId })" width="350" height="350" class="img-responsive detail_img" />
+            </div>
+        }
+    </div>
+
+    <p class="clearfix">
+        @Html.Raw(Html.ReplaceNewLineСharacters(Model.Description))
+    </p>
+
+    <div class="detail_date">
+        <p class="pull-left">
+            @Model.Date.Value.ToShortDateString()
+        </p>
+    </div>
+
+    @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+    {
+        <div class="clearfix">
+            <div class="btn-group pull-right">
+                @Html.ActionLink("Изменить", "Editor", "Admin", new { blogId = Model.BlogId, returnUrl = Request.Url.PathAndQuery }, new { @class = "btn btn-warning" })
+                @Html.ActionLink("Удалить", "DeleteNews", "Admin", new { blogId = Model.BlogId }, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    }
+</div>
+
+
+<!--ADD COMMENT-->
+
+<div class="panel panel-default">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div class="panel-heading">
+            <h2>
+                <span class="glyphicon glyphicon-comment"></span>
+                Добавить коментарий
+            </h2>
+            @using (Html.BeginForm("AddNewCommment", "Home"))
+            {
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="blogId" value="@Model.BlogId" />
+                <textarea name="text" rows="5" class="form-control addcomment_input"></textarea>
+                <input type="submit" value="Добавить" class="btn btn-default addcomment_btn" />
+            }
+        </div>
+    }
+
+
+    <!--COMMENTS-->
+
+    @if (Model.Comments.Count() != 0)
+    {
+        <div class="panel-body">
+            <h3>Коментарии:</h3>
+            @foreach (var comment in Model.Comments.OrderByDescending(c => c.Date))
+            {
+                <blockquote>
+                    <div class="clearfix">
+                        <div class="pull-left text_skyblue">
+                            @comment.User.Login
+                        </div>
+                        @if (User.IsInRole("admin") || User.Identity.Name == comment.User.Login)
+                        {
+                            using (Html.BeginForm("DeleteComment", "Home"))
+                            {
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="commentId" value="@comment.CommentId" />
+                                <input type="hidden" name="blogId" value="@Model.BlogId" />
+                                <input type="submit" value="удалить" class="pull-right btn btn-default btn-xs comment_del_btn" />
+                            }
+                        }
+                    </div>
+                    <p class="comment_text clearfix">
+                        @Html.Raw(Html.ReplaceNewLineСharacters(comment.Text))
+                    </p>
+                    <div class="text-muted comment_date">
+                        добавлен
+                        @comment.Date.ToShortDateString()
+                        в
+                        @comment.Date.ToShortTimeString()
+                    </div>
+                </blockquote>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="panel-body">
+            <h3>Нет комментариев</h3>
+        </div>
+    }
+</div>
