@@ -15,22 +15,18 @@
 else
 {
     <ul class="nav navbar-nav navbar-right">
-
-        <!--auth for Small Devices and Tablets-->
         <li>
             @Html.ActionLink("Вход", "Login", "Account", null, new { @id = "enter_btn_default" })
             <div class="auth_dialog">
                 @using (Html.BeginForm("Login", "Account"))
                 {
                     @Html.AntiForgeryToken();
-                    <input type="text" name="Login" class="form-control" />
-                    <input type="password" name="Password" class="form-control" />
+                    <input type="text" name="Login" placeholder="Логин" class="form-control" />
+                    <input type="password" name="Password" placeholder="Пароль" class="form-control" />
                     <input type="submit" value="Вход" class="btn btn-primary btn-block" />
                 }
             </div>
         </li>
-
-        <!--auth for Medium Devices and Desktops-->
         <li>
             <span id="enter_btn_dialog" class="navbar-text">Вход</span>
         </li>

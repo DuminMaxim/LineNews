@@ -138,7 +138,7 @@ namespace WebUI.Controllers
                     commentRepository.Add(newComment);
                 }
             }
-            return RedirectToAction("NewsDetails", new { blogId });
+            return RedirectToAction("CommentsList", new { blogId });
         }
 
 
@@ -148,7 +148,14 @@ namespace WebUI.Controllers
         {
             commentRepository.Delete(commentId);
 
-            return RedirectToAction("NewsDetails", new { blogId });
+            return RedirectToAction("CommentsList", new { blogId });
+        }
+
+        public PartialViewResult CommentsList(int blogId)
+        {
+            var comments = blogRepository.GetAll().FirstOrDefault(b => b.BlogId == blogId).Comments;
+
+            return PartialView("_CommentsList", comments);
         }
 
 

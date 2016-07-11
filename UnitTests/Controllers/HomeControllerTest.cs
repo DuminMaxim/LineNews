@@ -152,7 +152,7 @@ namespace UnitTests.Controllers
 
             // Утверждение
             mock.Verify(m => m.Delete(It.Is<int>(v => v == 4)));
-            Assert.AreEqual("NewsDetails", routeResult.RouteValues["action"]);
+            Assert.AreEqual("CommentsList", routeResult.RouteValues["action"]);
             Assert.AreEqual(blogId, routeResult.RouteValues["blogId"]);
         }
     }
