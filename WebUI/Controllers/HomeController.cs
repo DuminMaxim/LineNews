@@ -122,10 +122,10 @@ namespace WebUI.Controllers
             if (!string.IsNullOrEmpty(text))
             {
                 // Поиск пользователя в БД
-                User user = userRepository.GetAll().Find(u => u.Login == User.Identity.Name);
+                User user = userRepository.GetAll().FirstOrDefault(u => u.Login == User.Identity.Name);
 
                 // Поиск статьи в БД
-                Blog blog = blogRepository.GetAll().Find(b => b.BlogId == blogId);
+                Blog blog = blogRepository.GetAll().FirstOrDefault(b => b.BlogId == blogId);
                 if (blog != null)
                 {
                     Comment newComment = new Comment

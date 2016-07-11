@@ -30,7 +30,7 @@ namespace WebUI.Controllers
             }
             else
             {
-                Blog blog = blogRepository.GetAll().Find(b => b.BlogId == blogId);
+                Blog blog = blogRepository.GetAll().FirstOrDefault(b => b.BlogId == blogId);
                 return View(blog);
             }
         }
@@ -83,7 +83,7 @@ namespace WebUI.Controllers
         [HttpPost]
         public ActionResult UserAdministration(string login)
         {
-            User user = userRepository.GetAll().Find(u => u.Login == login);
+            User user = userRepository.GetAll().FirstOrDefault(u => u.Login == login);
             if(user != null)
             {
                if(user.IsBlocked)

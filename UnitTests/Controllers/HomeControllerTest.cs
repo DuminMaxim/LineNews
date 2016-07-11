@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using WebUI.Controllers;
 using System.Web.Mvc;
 using WebUI.Models;
+using System.Linq;
 
 namespace UnitTests.Controllers
 {
@@ -29,7 +30,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             // Действия 
             HomeController controller = new HomeController(mock.Object, null, null);
@@ -52,7 +53,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             // Действия
             HomeController controller = new HomeController(mock.Object, null, null);
@@ -70,7 +71,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             // Действия
             HomeController controller = new HomeController(mock.Object, null, null);
@@ -86,7 +87,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             // Действия
             HomeController controller = new HomeController(mock.Object, null, null);
@@ -106,7 +107,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка 
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             // Действие
             HomeController controller = new HomeController(mock.Object, null, null);
@@ -124,7 +125,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<Blog>>();
-            mock.Setup(m => m.GetAll()).Returns(blogs);
+            mock.Setup(m => m.GetAll()).Returns(blogs.AsQueryable<Blog>);
 
             var mockComment = new Mock<IRepository<Comment>>();
             mockComment.Setup(m => m.Add(It.IsAny<Comment>())).Throws<Exception>();
