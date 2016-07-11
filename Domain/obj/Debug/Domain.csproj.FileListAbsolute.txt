@@ -30,3 +30,15 @@ D:\Inostudio(TestProject)\MyBlog\Domain\obj\Debug\Domain.dll
 D:\Inostudio(TestProject)\MyBlog\Domain\obj\Debug\Domain.pdb
 D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\System.Web.Providers.dll
 D:\Inostudio(TestProject)\MyBlog\Domain\bin\Debug\System.Web.Providers.xml
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\Domain.dll.config
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\Domain.dll
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\Domain.pdb
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\EntityFramework.dll
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\System.Web.Providers.dll
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\EntityFramework.xml
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\TestProject(update)\NewsLine\Domain\bin\Debug\System.Web.Providers.xml
+D:\TestProject(update)\NewsLine\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+D:\TestProject(update)\NewsLine\Domain\obj\Debug\Domain.dll
+D:\TestProject(update)\NewsLine\Domain\obj\Debug\Domain.pdb

@@ -31,6 +31,18 @@
     .preview_news_descr{
         text-align:left;
     }
+
+    .auth_dialog{
+        display:none;
+    }
+
+    #enter_btn_dialog{
+        display:none;
+    }
+
+    #enter_btn_default{
+        display: block;
+    }
 }
 
 /* Extra Small Devices, Phones */
