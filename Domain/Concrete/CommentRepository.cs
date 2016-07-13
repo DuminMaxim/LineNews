@@ -38,12 +38,11 @@ namespace Domain.Concrete
         }
 
 
-        public List<Comment> GetAll()
+        public IQueryable<Comment> GetAll()
         {
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                return db.Comments.Include("Users").Include("Blogs").ToList();
-            }
+            ApplicationContext db = new ApplicationContext();
+            
+            return db.Comments;
         }
     }
 }

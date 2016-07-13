@@ -16,7 +16,7 @@ namespace Domain.Concrete
             using (ApplicationContext db = new ApplicationContext())
             {
                 User dbEntity = db.Users.FirstOrDefault(u => u.Login == user.Login);
-                
+
                 // Если пользователь существует в БД, изменяем существующего
                 // иначе добавляем нового 
                 if (dbEntity != null)
@@ -45,12 +45,11 @@ namespace Domain.Concrete
         }
 
 
-        public List<User> GetAll()
+        public IQueryable<User> GetAll()
         {
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                return db.Users.Include("Comments").Include("Role").ToList();
-            }
+            ApplicationContext db = new ApplicationContext();
+
+            return db.Users;
         }
 
 

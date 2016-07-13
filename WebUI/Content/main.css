@@ -33,6 +33,31 @@ header {
     border-bottom-right-radius: 25px;
 }
 
+#enter_btn_default{
+    display:none;
+}
+
+
+#enter_btn_dialog{
+    cursor:pointer;
+}
+
+#enter_btn_dialog:hover{
+    color:#fff;
+}
+
+.auth_dialog{
+    background-color:#101010;
+    padding:7px;
+    width:200px;
+    position:absolute;
+    top:50px;
+    z-index:1;
+    display:none;
+}
+.auth_dialog input{
+    margin-top:7px;
+}
 
 
 /*ASIDE*/

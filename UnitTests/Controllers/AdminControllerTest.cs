@@ -4,6 +4,7 @@ using Domain.Abstract;
 using System.Collections.Generic;
 using Domain.Entity;
 using WebUI.Controllers;
+using System.Linq;
 
 namespace UnitTests.Controllers
 {
@@ -21,7 +22,7 @@ namespace UnitTests.Controllers
                     new User { Login = "admin", Email = "admin@mail.ru", RoleId = 1, IsBlocked = false },
                     new User { Login = "User1", Email = "user1@mail.ru", RoleId = 2, IsBlocked = false },
                     new User { Login = "User2", Email = "user2@mail.ru", RoleId = 2, IsBlocked = true },
-                }
+                }.AsQueryable<User>
             );
 
             // Действие
@@ -46,7 +47,7 @@ namespace UnitTests.Controllers
                     new User { Login = "admin", RoleId = 1, IsBlocked = false },
                     new User { Login = "User1", RoleId = 2, IsBlocked = false },
                     new User { Login = "User2", RoleId = 2, IsBlocked = true },
-                }
+                }.AsQueryable<User>
             );
 
             // Действие
@@ -55,8 +56,8 @@ namespace UnitTests.Controllers
             controller.UserAdministration("User1");
 
             // Утверждение
-            Assert.AreEqual(mock.Object.GetAll()[1].IsBlocked, true);
-            Assert.AreEqual(mock.Object.GetAll()[2].IsBlocked, false);
+            Assert.AreEqual(mock.Object.GetAll().ToList()[1].IsBlocked, true);
+            Assert.AreEqual(mock.Object.GetAll().ToList()[2].IsBlocked, false);
         }
 
 
@@ -71,7 +72,8 @@ namespace UnitTests.Controllers
                    new Blog { BlogId = 1},
                    new Blog { BlogId = 2},
                    new Blog { BlogId = 3}
-                });
+                }.AsQueryable<Blog>
+                );
 
             // Действие
             AdminController controller = new AdminController(mock.Object, null);

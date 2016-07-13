@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using WebUI.Models;
 using WebUI.Controllers;
 using System.Web.Mvc;
+using System.Linq;
 
 namespace UnitTests.Controllers
 {
@@ -28,7 +29,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<User>>();
-            mock.Setup(m => m.GetAll()).Returns(users);
+            mock.Setup(m => m.GetAll()).Returns(users.AsQueryable<User>);
 
             // Действие
             AccountController controller = new AccountController(mock.Object);
@@ -45,7 +46,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<User>>();
-            mock.Setup(m => m.GetAll()).Returns(users);
+            mock.Setup(m => m.GetAll()).Returns(users.AsQueryable<User>);
 
             // Действие
             AccountController controller = new AccountController(mock.Object);
@@ -64,7 +65,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<User>>();
-            mock.Setup(m => m.GetAll()).Returns(users);
+            mock.Setup(m => m.GetAll()).Returns(users.AsQueryable<User>);
             mock.Setup(m => m.Add(It.IsAny<User>())).Throws<Exception>();
 
             // Действие
@@ -81,7 +82,7 @@ namespace UnitTests.Controllers
         {
             // Подготовка
             var mock = new Mock<IRepository<User>>();
-            mock.Setup(m => m.GetAll()).Returns(users);
+            mock.Setup(m => m.GetAll()).Returns(users.AsQueryable<User>);
             mock.Setup(m => m.Add(It.IsAny<User>())).Throws<Exception>();
 
             // Действие
@@ -105,7 +106,7 @@ namespace UnitTests.Controllers
             };
 
             var mock = new Mock<IRepository<User>>();
-            mock.Setup(m => m.GetAll()).Returns(users);
+            mock.Setup(m => m.GetAll()).Returns(users.AsQueryable<User>);
 
             // Действие
             AccountController controller = new AccountController(mock.Object);

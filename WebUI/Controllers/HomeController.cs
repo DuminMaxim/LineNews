@@ -122,10 +122,10 @@ namespace WebUI.Controllers
             if (!string.IsNullOrEmpty(text))
             {
                 // Поиск пользователя в БД
-                User user = userRepository.GetAll().Find(u => u.Login == User.Identity.Name);
+                User user = userRepository.GetAll().FirstOrDefault(u => u.Login == User.Identity.Name);
 
                 // Поиск статьи в БД
-                Blog blog = blogRepository.GetAll().Find(b => b.BlogId == blogId);
+                Blog blog = blogRepository.GetAll().FirstOrDefault(b => b.BlogId == blogId);
                 if (blog != null)
                 {
                     Comment newComment = new Comment
@@ -138,7 +138,7 @@ namespace WebUI.Controllers
                     commentRepository.Add(newComment);
                 }
             }
-            return RedirectToAction("NewsDetails", new { blogId });
+            return RedirectToAction("CommentsList", new { blogId });
         }
 
 
@@ -148,7 +148,14 @@ namespace WebUI.Controllers
         {
             commentRepository.Delete(commentId);
 
-            return RedirectToAction("NewsDetails", new { blogId });
+            return RedirectToAction("CommentsList", new { blogId });
+        }
+
+        public PartialViewResult CommentsList(int blogId)
+        {
+            var comments = blogRepository.GetAll().FirstOrDefault(b => b.BlogId == blogId).Comments;
+
+            return PartialView("_CommentsList", comments);
         }
 
 

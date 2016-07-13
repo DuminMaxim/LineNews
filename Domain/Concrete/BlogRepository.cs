@@ -49,7 +49,7 @@ namespace Domain.Concrete
             using (ApplicationContext db = new ApplicationContext())
             {
                 Blog blog = db.Blogs.Find(id);
-                if(blog != null)
+                if (blog != null)
                 {
                     db.Blogs.Remove(blog);
                     db.SaveChanges();
@@ -58,13 +58,11 @@ namespace Domain.Concrete
         }
 
 
-        public List<Blog> GetAll()
+        public IQueryable<Blog> GetAll()
         {
-            using (ApplicationContext db = new ApplicationContext())
-            {
-                db.Users.Load();
-                return db.Blogs.Include("Comments").ToList();
-            }
+            ApplicationContext db = new ApplicationContext();
+
+            return db.Blogs;
         }
     }
 }

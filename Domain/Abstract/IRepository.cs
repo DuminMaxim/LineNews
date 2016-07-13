@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Domain.Abstract
 {
     public interface IRepository<T>
     {
-        List<T> GetAll();
+        IQueryable<T> GetAll();
 
         void Add(T entity);
 
