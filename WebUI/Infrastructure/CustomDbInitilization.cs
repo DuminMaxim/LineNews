@@ -10,8 +10,6 @@ namespace WebUI.Infrastructure
     {
         protected override void Seed(ApplicationContext db)
         {
-            db.Configuration.LazyLoadingEnabled = false;
-
             // Добавление ролей
             db.Roles.Add(new Role { RoleId = 1, Name = "admin" });
             db.Roles.Add(new Role { RoleId = 2, Name = "user" });

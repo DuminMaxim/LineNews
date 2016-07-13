@@ -49,7 +49,7 @@ namespace Domain.Concrete
         {
             ApplicationContext db = new ApplicationContext();
 
-            return db.Users.Include("Comments").Include("Role");
+            return db.Users;
         }
 
 

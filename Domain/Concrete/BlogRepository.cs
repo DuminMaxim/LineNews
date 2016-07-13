@@ -62,7 +62,7 @@ namespace Domain.Concrete
         {
             ApplicationContext db = new ApplicationContext();
 
-            return db.Blogs.Include("Comments");
+            return db.Blogs;
         }
     }
 }
